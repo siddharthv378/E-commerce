@@ -1,0 +1,131 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-image: linear-gradient(180deg, #c4b6fd , #93acfc);
+}
+.navbar-brand,
+.text-primary{
+    color: #0a58ca !important;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+.special-offer-title {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.special-offer-description {
+    color: #ffffff;
+}
+
+.product-card {
+    transition: transform 0.2s ease-in-out;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.reviews-section {
+    background-color: #e9ecef;
+    padding: 50px 0;
+   
+}
+.review-card {
+    background-color:rgb(4, 15, 46);
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+.review-card img {
+    max-width: 60px;
+    border-radius: 50%;
+}
+.review-card .card-body {
+    padding: 20px;
+}
+.greeting-section {
+    background-image: linear-gradient(180deg, #c4b6fd , #c4b6fd);
+    padding: 50px 0;
+    text-align: center;
+}
+.greeting-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.greeting-section p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2f3139;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    margin: 15px;
+    max-width: 300px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.social-icons a {
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0d6efd;
+}
